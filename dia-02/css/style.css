@@ -1,0 +1,43 @@
+body {
+    margin: 0 ;
+    padding: 0 ;
+    background: #dce7f5 ;
+    font-family: "Segoe UI";
+}
+
+nav ul {
+    text-align: center;
+}
+nav li {
+    display: inline; /* Hace que los ítems del menú estén en una línea horizontal */
+    margin-right: 50px; /* Espacio entre los ítems del menú */
+}
+nav a {
+    text-decoration: none;
+    color: #070707;
+    font-size: 24px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+header .titulo {
+    text-align: center;
+    line-height: 220%;
+}
+header .subtitulo {
+    text-align: center;
+    line-height: 50%;
+}
+
+#interes {
+    text-align: center;
+}
+
+footer {
+    font-size: 17px;
+    text-align: center;
+}
+
+
+
