@@ -19,7 +19,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
         integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <title> Ejercicio #10 - Día 3 </title>
+        <title> Ejercicio #05 - Día 4 </title>
     </head>
 
     <body>
@@ -230,6 +230,56 @@
             <img height="150" src="/dia-03/img/champions-2015.jpg" alt="champions-2015">
         
         </div>
+
+        <hr>
+
+        <section id="formulario">
+
+            <h2> Apartado para formularios </h2>
+
+            <form>
+
+                <label for="nombre"> Nombre: </label>
+                <input type="text" id="nombre" name="nombre" required> <br> <br>
+
+                <label for="email"> Email: </label>
+                <input type="email" id="email" name="email" required> <br> <br>
+
+                <label for="mensaje"> Mensaje: </label>
+                <textarea name="mensaje" id="mensaje" minlength="10"></textarea> <br> <br>
+
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" placeholder="Ingrese su contraseña." required> <br> <br>
+
+                <label for="Lenguaje"> Lenguaje </label>
+                <select name="lenguajes" id="lenguaje">
+                <option value="inicio"> Seleccionar... </option>
+                  <option value="javascript"> JavaScript </option>
+                  <option value="php"> PHP </option>
+                  <option value="java"> Java </option>
+                  <option value="python"> Python </option>
+                  <option value="c#"> C# </option>
+                  <option value="C++"> C++ </option>
+                </select> <br> <br>
+
+                <fieldset>
+                    <legend> Intereses: </legend>
+                    <input type="checkbox" name="interest" value="music"> Música<br>
+                    <input type="checkbox" name="interest" value="sports"> Deportes<br>
+                    <input type="checkbox" name="interest" value="reading"> Lectura
+                </fieldset> <br>
+                <fieldset>
+                    <legend> Género: </legend>
+                    <input type="radio" name="gender" value="male"> Masculino<br>
+                    <input type="radio" name="gender" value="female"> Femenino<br>
+                    <input type="radio" name="gender" value="other"> Prefiero no decirlo
+                </fieldset> <br> <br> 
+
+                <input type="submit" value="Enviar">
+
+            </form>
+
+        </section>
 
         <hr>
 

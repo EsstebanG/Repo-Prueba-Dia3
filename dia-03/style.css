@@ -53,6 +53,20 @@ header .subtitulo {
     text-align: center;
 }
 
+label {
+    font-size: 25px;
+}
+input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
 footer {
     font-size: 17px;
     text-align: center;
