@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="autor" content="Esteban Garzón.">
+
+    <meta name="description" content="Ejercicios basicos en HTML.">
+
+    <style>
+
+        ol {
+            list-style-position: inside; /* Ubicar la viñeta dentro del texto */
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            margin: 0;
+            padding: 0; /* Eliminar margen y padding predeterminados */
+        }
+
+        ul {
+            list-style-position: inside;
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            padding: 5px; /* Añadir padding interno a cada elemento */
+            border: 1px solid rgb(117, 14, 14); /* Añadir un borde a cada elemento */
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="/tabla.css">
+
+    <title> Ejercicio #07 - Día 5 </title>
+
+</head>
+    <body>
+
+        <header>
+
+            <h1> Ejercicios de tablas en HTML. </h1>
+
+        </header>
+
+        <main>
+
+            <section id="tabla">
+
+                <table>
+                    <caption> Ejemplo de tabla </caption>
+                    <tr>
+                        <th> ID </th>
+                        <th colspan="2"> Nombre </th>
+                    </tr>
+                    <tr>
+                        <td> 01 </td>
+                        <td> Luis </td>
+                        <td> Suarez </td>
+                    </tr>
+                    <tr>
+                        <td> 02 </td>
+                        <td> Leo </td>
+                        <td> Messi </td>
+                    </tr>
+                    <tr>
+                        <td> 03 </td>
+                        <td> Neymar </td>
+                        <td> da Silva Santos Júnior </td>
+                    </tr>
+                    <tr>
+                        <th rowspan="3" colspan="2"> Equipos </th>
+                        <td> Barcelona </td>
+                    </tr>
+                    <tr>
+                        <td> PSG </td>
+                    </tr>
+                    <tr>
+                        <td> Liverpool </td>
+                    </tr>
+                </table>
+
+            </section>
+
+            <br>
+            <hr>
+
+            <section id="listas">
+
+                <h3> Lista ordenada. </h3>
+                <ol>
+                    <li> Item 1 </li>
+                    <li> Item 2 </li>
+                    <li> Item 3 </li>
+                    <li> Item 4 </li>
+                </ol>
+
+                <h3> Lista desordenada. </h3>
+                <ul>
+                    <li> Item 1 </li>
+                    <li> Item 2 </li>
+                    <li> Item 3 </li>
+                </ul>
+
+                <dl>
+                    <h4> Equipos de fútbol. </h4>
+                    <li> <dt> Término #1 </dt> <dd> <a href="https://es.semrush.com/blog/html-semantico/" target="_blank"> Estructura semantica. </a> </dd> </li>
+                    <li> <dt> Término #2 </dt> <dd> <a href="https://asana.com/es/resources/what-is-scrum" target="_blank"> Metodologia SCRUM. </a> </dd> </li>
+                    <li> <dt> Término #3 </dt> <dd> <a href="https://learn.microsoft.com/es-es/azure/devops/user-guide/what-is-azure-devops?view=azure-devops" target="_blank"> Azure DevOps. </a> </dd> </li>
+                </dl>
+
+            </section>
+
+        </main>
+
+        <hr>
+
+        <footer>
+            <p> Ultima modificación: 25/05/2025 </p>
+            <p> Pagina elaborada por Juan Esteban Garzón, coder RIWI. </p>
+            <p> © Todos los derechos de esta pagina son reservados. </p>
+        </footer>
+
+    </body>
+</html>

@@ -1,0 +1,15 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.medio {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(133, 0, 0);
+    font-weight: bold;
+}
+
+footer {
+    font-size: 17px;
+    text-align: center;
+}

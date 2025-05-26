@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <meta charset="UTF-8">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <meta name="author" content="Esteban Garzón.">
+
+      <meta name="description" content="Ejercicios básicos en HTML.">
+
+      <title>Ejercicio #10 - Día 5</title>
+
+      <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 20px;
+        }
+
+        nav {
+          margin-bottom: 20px;
+        }
+        nav ul {
+          list-style: none;
+          padding: 0;
+        }
+        nav li {
+          margin-bottom: 5px;
+        }
+        nav a {
+          text-decoration: none;
+          color: darkblue;
+        }
+
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+          padding: 8px;
+          text-align: center;
+        }
+        table {
+          width: 100%;
+          margin-top: 10px;
+        }
+
+        ol, ul {
+          margin-top: 10px;
+        }
+        li {
+          padding: 5px;
+          border: 1px solid rgb(117, 14, 14);
+          margin-bottom: 5px;
+        }
+
+        footer {
+          margin-top: 30px;
+          font-size: 0.9em;
+          color: #444;
+        }
+      </style>
+    </head>
+
+    <body>
+
+      <header>
+
+        <h1> Ejercicios de tablas en HTML </h1>
+
+      </header>
+
+      <hr>
+
+      <nav>
+
+        <ul>
+          <li><a href="#tabla"> Tabla </a></li>
+          <li><a href="#listas"> Listas </a></li>
+        </ul>
+
+      </nav>
+
+      <hr>
+
+      <main>
+
+        <section id="tabla">
+
+          <h2> Tabla </h2>
+
+          <table>
+            <caption> Ejemplo de tabla </caption>
+            <tr>
+              <th> ID </th>
+              <th colspan="2"> Nombre </th>
+            </tr>
+            <tr>
+              <td> 01 </td>
+              <td> Luis </td>
+              <td> Suárez </td>
+            </tr>
+            <tr>
+              <td> 02 </td>
+              <td> Leo </td>
+              <td> Messi </td>
+            </tr>
+            <tr>
+              <td> 03 </td>
+              <td> Neymar </td>
+              <td> da Silva Santos Júnior </td>
+            </tr>
+            <tr>
+              <th rowspan="3" colspan="2"> Equipos </th>
+              <td> Barcelona </td>
+            </tr>
+            <tr>
+              <td> PSG </td>
+            </tr>
+            <tr>
+              <td> Liverpool </td>
+            </tr>
+          </table>
+
+        </section>
+
+        <br>
+        <hr>
+
+        <section id="listas">
+
+          <h2> Listas </h2>
+
+          <h3 >Lista ordenada </h3>
+
+          <ol>
+            <li> Item 1 </li>
+            <li> Item 2 </li>
+            <li> Item 3 </li>
+            <li> Item 4 </li>
+            <li> Item 5 </li>
+          </ol>
+
+          <h3>Lista desordenada</h3>
+          <ul>
+            <li> Item 1 </li>
+            <li> Item 2 </li>
+            <li> Item 3 </li>
+          </ul>
+
+          <h3> Definiciones </h3>
+
+          <dl>
+            <dt> Término #1 </dt>
+            <dd><a href="https://es.semrush.com/blog/html-semantico/" target="_blank">Estructura semántica</a></dd>
+
+            <dt> Término #2 </dt>
+            <dd><a href="https://asana.com/es/resources/what-is-scrum" target="_blank">Metodología SCRUM</a></dd>
+
+            <dt> Término #3 </dt>
+            <dd><a href="https://learn.microsoft.com/es-es/azure/devops/user-guide/what-is-azure-devops?view=azure-devops" target="_blank">Azure DevOps</a></dd>
+          </dl>
+
+        </section>
+
+      </main>
+
+      <hr>
+
+      <footer>
+        <p>Última modificación: 25/05/2025</p>
+        <p>Página elaborada por Juan Esteban Garzón, coder RIWI.</p>
+        <p>© Todos los derechos de esta página son reservados.</p>
+      </footer>
+
+    </body>
+</html>
